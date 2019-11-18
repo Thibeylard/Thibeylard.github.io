@@ -1,0 +1,144 @@
+
+/*
+=================================================================================================
+================================================================================ MEDIA QUERIES FOR SMARTPHONE
+=================================================================================================
+*/
+
+@media all and (max-width : 768px) {
+  #presentation img, #skills img{
+    height: 200px;
+    width:200px;
+  }
+
+    #presentation, #skills
+    {
+        height:100%;
+        text-align: center;
+    }
+
+  .big_title{
+    color:white;
+    font-size: 1.5em;
+  }
+
+  .medium_title{
+    font-size: 1.2em;
+  }
+  /*
+  -------------------------------------------------------------------------------
+  -----------------------------------------------------------PRESENTATION SECTION
+  -------------------------------------------------------------------------------
+  */
+
+  #presentation_container, #presentation img{
+      display: block;
+      vertical-align:top;
+  }
+
+  #presentation_container{
+      width:100%;
+      height:100%;
+  }
+
+  #presentation_container h1{
+      left: 0px;
+      text-align: center;
+      margin-top: 0px;
+      padding-top:20px;
+      width: 100%;
+  }
+
+  #presentation_container h2{
+      display: block;
+      left: 0px;
+      margin-bottom: 25px;
+      text-align: center;
+  }
+
+  #presentation_container p{
+      left: 0px;
+      width:90%;
+      margin: auto;
+      font-size: 0.9em;
+      margin-bottom: 25px;
+
+  }
+  #presentation img{
+    display: inline;
+    margin-bottom: 10px;
+  }
+
+
+  /*
+  -------------------------------------------------------------------------------
+  -----------------------------------------------------------SKILLS SECTION
+  -------------------------------------------------------------------------------
+  */
+
+  #skills_container{
+      display: block;
+  }
+  #skills img{
+    display: none;
+  }
+
+  #skills_container{
+        width:100%;
+        text-align: left;
+  }
+
+  #skills_container h2, #skills_container p{
+    display: block;
+    width:90%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top:25px;
+  }
+
+  #skills_container h2{
+      text-align: center;
+  }
+
+  #skills_container p{
+    text-align: justify;
+  }
+
+  /*
+  -------------------------------------------------------------------------------
+  -----------------------------------------------------------CONTACT SECTION
+  -------------------------------------------------------------------------------
+  */
+
+  #contact{
+      height: 100%;
+  }
+
+  #contact_container{
+    position: relative;
+    left:0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  #contact_container h1, #contact_container h2, #contact_container a:first-of-type{
+    padding-left: 0%;
+  }
+
+  #contact_container h1{
+    margin: 15px;
+    padding-top: 15px;
+  }
+
+  #contact_container h2{
+    font-size: 1em;
+    margin-bottom: 25px;
+  }
+
+  #contact_container img{
+    padding-bottom: 50px;
+  }
+}

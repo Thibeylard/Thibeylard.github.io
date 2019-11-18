@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family: 'truenobold';
+    src: url('../fonts/truenobd-webfont.woff2') format('woff2'),
+         url('../fonts/truenobd-webfont.woff') format('woff'),
+         url('../fonts/truenobd-webfont.ttf') format('truetype'),
+         url('../fonts/truenobd-webfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+-------------------------------------------------------------------------------
+-----------------------------------------------------------         GLOBAL
+-------------------------------------------------------------------------------
+*/
+body{
+  margin: 0px;
+  padding: 0px;
+}
+#presentation, #skills
+{
+    height:500px;
+    text-align: center;
+}
+
+.big_title{
+  color:white;
+  font-size: 2.5em;
+}
+
+.medium_title{
+  font-size: 2em;
+}
+
+.highlighting{
+  background-color: #86eca5;
+}
+
+.big_icon{
+  height: 450px;
+  width:450px;
+}
+
+.small_icon{
+  height: 64px;
+  width: 64px;
+}
+
+/*
+-------------------------------------------------------------------------------
+-----------------------------------------------------------PRESENTATION SECTION
+-------------------------------------------------------------------------------
+*/
+
+#presentation{
+    background-color: #7451EB;
+}
+
+#presentation_container, #presentation img{
+    display: inline-block;
+    vertical-align:middle;
+}
+
+#presentation_container{
+    width:50%;
+    height:100%;
+    text-align: left;
+}
+
+#presentation_container h1{
+    left: 11%;
+    padding-top: 50px;
+    font-family:truenobold;
+}
+
+#presentation_container h2{
+    display: inline-block;
+    left: 11%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family:truenobold;
+}
+
+#presentation_container p{
+    left: 10%;
+    width:60%;
+    text-align:justify;
+    color:white;
+    font-size: 1.2em;
+    font-family: Calibri;
+
+}
+
+/*
+-------------------------------------------------------------------------------
+-----------------------------------------------------------SKILLS SECTION
+-------------------------------------------------------------------------------
+*/
+
+#skills{
+    background-color: white;
+}
+
+#skills_container, #skills img{
+    display: inline-block;
+    vertical-align:middle;
+}
+
+#skills_container{
+      width:50%;
+      text-align: right;
+}
+
+#skills_container h2, #skills_container p{
+  display: inline-block;
+  width:80%;
+}
+
+#skills_container h2{
+    font-family:truenobold;
+    text-align: left;
+}
+
+#skills_container p{
+  text-align: left;
+}
+
+/*
+-------------------------------------------------------------------------------
+-----------------------------------------------------------CONTACT SECTION
+-------------------------------------------------------------------------------
+*/
+
+#contact{
+    background-color: #003668;
+    height: 300px;
+}
+
+#contact_container{
+  height: 100%;
+  width: 80%;
+  text-align: left;
+}
+
+#contact_container h1, #contact_container h2, #contact_container a:first-of-type{
+  padding-left: 15%;
+}
+
+#contact_container h1{
+  padding-top: 50px;
+  font-family: truenobold;
+  margin: 0px;
+}
+
+#contact_container h2 {
+  font-family: Calibri;
+  font-weight: normal;
+}
+
+#contact_container h2 span:last-child{
+  color: white;
+}
